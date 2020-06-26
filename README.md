@@ -15,7 +15,7 @@ This firmware was inspired by Creality printers' touchscreen firmware. Some feat
 * Z offset, manual and automatic leveling
 * User confirmation screen (used by the filament runout procedure for example)
 * Power loss recovery
-* Custom G-code input
+* Custom G-code input (requires [updating the touchscreen's core firmware](https://github.com/Desuuuu/DGUS-reloaded/wiki/Flashing-the-touchscreen-GUI-and-OS-firmware))
 * PID autotuning
 * Volume adjustment (saved to EEPROM)
 * Brightness adjustment (saved to EEPROM)
@@ -48,13 +48,14 @@ You have to compile and flash this [modified version of Marlin](https://github.c
 Example Marlin configurations are available in [this repository](https://github.com/Desuuuu/DGUS-reloaded-config).
 
 ## Installation
-Download and decompress the `DWIN_SET.tar.gz` archive from [the latest release](https://github.com/Desuuuu/Marlin-DGUS-reloaded/releases).
+The installation process is detailed on [this wiki page](https://github.com/Desuuuu/DGUS-reloaded/wiki/Flashing-the-firmware).
 
-Alternatively, you can open the `DWprj.hmi` file in **DGUS Tools**, press *Generate* to create the required *.bin* files and run the rename script.
+## Modification / Compilation
+You can make modifications to the firmware by opening the `DWprj.hmi` file in **DGUS Tools**.
 
-If you are currently using another touchscreen firmware, it is recommended to replace the `T5UID1.CFG` file in the `DWIN_SET` folder with the one from [extras/flash_reset](/extras/flash_reset). The touchscreen's onboard memory will be erased before flashing, making sure nothing is left over from a previous firmware.
+After finishing your modifications, you will need to press the *Generate* button to create the 3 required binary files.
 
-Follow the standard procedure for flashing the touchscreen, using the `DWIN_SET` folder from the archive you downloaded.
+You can then run the rename script and flash your touchscreen using the resulting `DWIN_SET` folder.
 
 ## Credits
 | Material                                                                       | Author                                                    | Modified | License                                                               |
