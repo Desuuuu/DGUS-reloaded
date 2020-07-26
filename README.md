@@ -41,6 +41,7 @@ Testing has been done on the following machines:
 
 * Creality CR-10S Pro
 * Creality CR-10S Pro V2
+* Creality Ender 5 Plus
 
 ## Prerequisites
 You have to compile and flash this [modified version of Marlin](https://github.com/Desuuuu/Marlin) with `DGUS_LCD_UI_RELOADED` defined in the configuration.
