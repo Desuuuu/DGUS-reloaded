@@ -1,8 +1,8 @@
 # DGUS-reloaded
 
-Firmware for 3D printers' DGUS touchscreens.
+DGUS touchscreen firmware for 3D printers running Marlin.
 
-The printer firmware to run alongside this can be found in [this repository](https://github.com/Desuuuu/Marlin).
+Requires using a modified version of Marlin to work properly, which can be found in [this repository](https://github.com/Desuuuu/Marlin).
 
 ## Disclaimer
 **This software is provided without any warranty. You are solely responsible for your use of it.**
