@@ -1,6 +1,6 @@
 # DGUS-reloaded
 
-DGUS touchscreen firmware for 3D printers running Marlin.
+DWIN T5UID1 touchscreen firmware for 3D printers running Marlin.
 
 Requires using a modified version of Marlin to work properly, which can be found in [this repository](https://github.com/Desuuuu/Marlin).
 
@@ -29,7 +29,7 @@ Focus was also put on making this firmware as easy and safe to use as possible f
 ## Compatibility
 This firmware **should** be compatible with printers equipped with the following hardware:
 
-* 480x272 DWIN touchscreen
+* 480x272 DWIN T5UID1 touchscreen
 * Single extruder
 * Heated bed
 * Single controllable fan
