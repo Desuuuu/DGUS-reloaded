@@ -50,7 +50,7 @@ Example Marlin configurations are available in [this repository](https://github.
 
 ## Wiki
 * [Flashing the firmware](https://github.com/Desuuuu/DGUS-reloaded/wiki/Flashing-the-firmware)
-* [Flashing the touchscreen GUI and OS firmware](https://github.com/Desuuuu/DGUS-reloaded/wiki/Flashing-the-touchscreen-GUI-and-OS-firmware)
+* [Flashing the T5 GUI and OS firmware](https://github.com/Desuuuu/DGUS-reloaded/wiki/Flashing-the-T5-GUI-and-OS-firmware)
 
 ## Modification / Compilation
 You can make modifications to the firmware by opening the `DWprj.hmi` file in **DGUS Tools**.
